@@ -1,0 +1,2154 @@
+<HTML>
+<head>
+<title> D3 RPL | 2020 </title>
+<link rel="icon" href="logo-ubg.png"/>
+
+<style type="text/css">
+
+body, html { margin: 0;}
+
+.hometable1 {
+	width:100%;
+	height:120px;
+	position:relative;
+	
+	background-size:cover;
+	align:center; 
+	
+
+}
+
+.headerpict {
+	width:100px;
+	padding-left:50px;
+	padding-top:5px;
+
+	
+}
+
+.pay {
+	font-family:impact;
+	font-size:60;
+	position:absolute;
+	padding-right:0px;
+	color:#004999;
+	padding-left:20px;
+	padding-top:5px;
+
+}
+
+.profile {
+	background-color:white;
+	font-weight:bold;
+	padding-left:30px;
+	
+	width:220px;
+	height:40px;
+	font-size:14px;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border:0px;
+	cursor:pointer;
+	
+}
+
+
+.profileimg {
+	width:35px;
+	position:absolute;
+	right:300px;
+	top:30px;
+	cursor:pointer;
+	border-radius:50%;
+}
+.profile:hover {
+	background-color:yellow;
+	color:#004999;
+}
+
+
+.tblgout {
+	padding-right:30px;
+	padding-top:25px;
+}
+
+.lgbutton {
+	background-color:white;
+	font-weight:bold;
+	padding:3px;
+	width:90px;
+	height:40px;
+	font-size:14px;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border:0px;
+	
+}
+
+.lgbutton:hover {
+	background-color:yellow;
+	color:#004999;
+	border:0px;
+	cursor:pointer;
+	transition: 1;
+	
+}
+
+.tbutton {
+	padding:0px;
+	text-align:right;
+	margin-right:30px;
+	
+}
+
+
+
+.tbmenu {
+	width:750px;
+	height:30px;
+	background-color:white;
+	position:relative;	
+	top:2px;
+	margin-top:17px;
+	float:right;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	box-shadow:0px -2px 20px #004999;
+	
+}
+.tbmenu:hover{
+	
+}
+
+
+.menu {
+	float:right;
+	height:30px;
+	padding-left:24px;
+	padding-right:24px;
+	margin:0px;
+	
+	background-color:#004999;
+	color:white;
+	font-weight:bold;
+	border:0px;
+	border-bottom:0px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	
+}
+
+.menu:hover{
+	background-color:#bfe6ff;
+	color:black;
+	cursor:pointer;
+	
+}
+
+/* --------------------- */
+
+.table1	{
+	
+	border-top-left-radius:40px;
+	border-top-right-radius:40px;
+	padding-top: 20px;
+	background-color:#0e2433;
+	
+}
+
+.fotomhs {
+	width:130;
+}
+
+.lgubg2	{
+	height:160;
+	width:160;padding-left:20px;
+	padding-bottom:20px; 
+	filter:invert(200%);
+	
+}
+
+.table2 {
+	border:2px solid #C29e29;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	face:arial;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	margin-top:70px;
+	
+}
+.textstyle	{
+	color:white; 
+	font-family:Impact;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	border-bottom:1px solid white;
+}
+
+.nama	{
+	color:white;
+	face:arial;
+	font-size:20px;
+	padding:10px;
+	text-align:left;
+}
+
+</style>
+
+</head>
+
+<body bgcolor="cyan">
+
+	<table class="hometable1" background="bg2.jpg">
+		<tr >
+			<td>
+				<a href="berhasil.html">
+				<img src="logo-ubg.png" class="headerpict"/>
+				<span class="pay"> D3 RPL 2020 <br>
+				<font face="courier new" style="font-size:25px;line-height:5px;text-decoration:underline;font-weight:bold;">Universitas Bumigora </font></span>
+				</a>
+			</td>
+			
+			<td class="tbutton">
+				<div class="tblgout">
+					<a href="profile.html">
+					<img src="infjrsn.jpg" class="profileimg">
+					<input type="button" value="PROFILE PEMBUAT" class="profile" ></input>
+					</a>
+					<a href="logout.php">
+					<input type="button" value="LOGOUT" class="lgbutton"></input>
+					</a>
+				</div>
+			<div class="tbmenu">
+			<a href="ipk.html"><input type="button" value="IPK" class="menu" style="margin-right:5px;"></input></a>
+			<a href="dtmahasiswa.html"><input type="button" value="DATA MAHASISWA" class="menu"></input></a>
+			<a href="dtdosen.html"><input type="button" value="DATA DOSEN" class="menu"></input></a>
+			<a href="uasuts.html"><input type="button" value="UAS & UTS" class="menu"></input></a>
+			<a href="jadwal.html"><input type="button" value="JADWAL KULIAH" class="menu"></input></a>
+			<a href="berhasil.html"><input type="button" value="HOME" class="menu"></input></a>
+			</div>
+			</td>
+		</tr>
+	
+	</table>
+	
+<BR><BR>
+
+	<table class="table1" align="center" height="1200" width="1100" >
+		<tr>
+		<td>
+			<center><img src="logo-ubg.png" class="lgubg2" ><br>
+			<div style="color:white;font-size:30px;text-shadow:0px 5px 2px black; "><strong><font face="Geometr415 Blk BT">
+			JADWAL UAS & UTS PRODI D3 RPL <br> ANGKATAN 2020 | UNIVERSITAS BUMIGORA </font></strong>
+			
+			<br>
+					
+								<!–––––––––––––––––––––––––––––––––––––––––––– SEMESTER 1 ––––––––––––––––––––––––––––––––––––––– >
+			<table width="1090" height="184"  class="table2">
+					<tr>
+						<td colspan="5" background="gedung.jpg" style="padding:7px;font-family:Geometr415 Blk BT;" class="table2" >
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						SEMESTER I </td>
+					</tr>
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UTS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				<table width="1090" height="184"  class="table2" style="margin-top:0px;">
+					
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UAS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				
+				
+										<!–––––––––––––––––––––––––––––––––––––––––––– SEMESTER 2 ––––––––––––––––––––––––––––––––––––––– >
+				<table width="1090" height="184"  class="table2">
+					<tr>
+						<td colspan="5" background="gedung.jpg" style="padding:7px;font-family:Geometr415 Blk BT;" class="table2" >
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						SEMESTER II </td>
+					</tr>
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UTS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				<table width="1090" height="184"  class="table2" style="margin-top:0px;">
+					
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UAS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				
+				<!–––––––––––––––––––––––––––––––––––––––––––– SEMESTER 3 ––––––––––––––––––––––––––––––––––––––– >
+				<table width="1090" height="184"  class="table2">
+					<tr>
+						<td colspan="5" background="gedung.jpg" style="padding:7px;font-family:Geometr415 Blk BT;" class="table2" >
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						SEMESTER III </td>
+					</tr>
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UTS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				<table width="1090" height="184"  class="table2" style="margin-top:0px;">
+					
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UAS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				
+				<!–––––––––––––––––––––––––––––––––––––––––––– SEMESTER 4 ––––––––––––––––––––––––––––––––––––––– >
+				<table width="1090" height="184"  class="table2">
+					<tr>
+						<td colspan="5" background="gedung.jpg" style="padding:7px;font-family:Geometr415 Blk BT;" class="table2" >
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						SEMESTER IV </td>
+					</tr>
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UTS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				<table width="1090" height="184"  class="table2" style="margin-top:0px;">
+					
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UAS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				
+				<!–––––––––––––––––––––––––––––––––––––––––––– SEMESTER 5 ––––––––––––––––––––––––––––––––––––––– >
+				<table width="1090" height="184"  class="table2">
+					<tr>
+						<td colspan="5" background="gedung.jpg" style="padding:7px;font-family:Geometr415 Blk BT;" class="table2" >
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						SEMESTER V </td>
+					</tr>
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UTS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				<table width="1090" height="184"  class="table2" style="margin-top:0px;">
+					
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UAS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				
+				<!–––––––––––––––––––––––––––––––––––––––––––– SEMESTER 6 ––––––––––––––––––––––––––––––––––––––– >
+				<table width="1090" height="184"  class="table2">
+					<tr>
+						<td colspan="5" background="gedung.jpg" style="padding:7px;font-family:Geometr415 Blk BT;" class="table2" >
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						SEMESTER IV </td>
+					</tr>
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UTS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				<table width="1090" height="184"  class="table2" style="margin-top:0px;">
+					
+					<tr >
+						<td colspan="5" heigh="90" >  
+						<div style=";color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">UAS </font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td ><div align="center"> <div class="textstyle"> NAMA MK</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> NAMA DOSEN</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> HARI</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> JAM</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> RUANGAN</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Sistem Operasi
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SENIN
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Matematika Diskrit
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 DKV II
+						</td>
+					</tr>
+						<tr>
+						<td>
+							<strong> <div class="nama">
+								PJK
+							</strong></div>
+						</td>
+						<td>
+							 Gilang Primajati S.Si M.Sc
+						</td>
+						<td>
+							 SELASA
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV I
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Struktur Data
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 LAB DKV II
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								SBD
+							</strong></div>
+						</td>
+						<td>
+							Dadang Priyanto S.Kom M.Kom
+						</td>
+						<td>
+							 KAMIS
+						</td>
+						<td>
+							 13:50 - 16:20								
+						</td>
+						<td>
+							 LAB MM
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								Organisasi Komputer
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 JUM'AT
+						</td>
+						<td>
+							 09:40 - 10:30								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong> <div class="nama">
+								B. Inggris Lanjut
+							</strong></div>
+						</td>
+						<td>
+							 Andi Sofyan Anas S.T M.Kom
+						</td>
+						<td>
+							 SABTU
+						</td>
+						<td>
+							 08:00 - 09:50								
+						</td>
+						<td>
+							 2D
+						</td>
+					</tr>
+				
+				</table>
+				
+			</td>				
+		</tr>
+	</table>				
+				
+	
+	<br>
+	
+	
+
+</body>
+</html>

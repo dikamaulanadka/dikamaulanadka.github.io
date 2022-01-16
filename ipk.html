@@ -1,0 +1,546 @@
+<HTML>
+<head>
+<title> D3 RPL | 2020 </title>
+<link rel="icon" href="logo-ubg.png"/>
+
+<style type="text/css">
+
+body, html { margin: 0;}
+
+.hometable1 {
+	width:100%;
+	height:120px;
+	position:relative;
+	
+	background-size:cover;
+	align:center; 
+	
+
+}
+
+.headerpict {
+	width:100px;
+	padding-left:50px;
+	padding-top:5px;
+
+	
+}
+
+.pay {
+	font-family:impact;
+	font-size:60;
+	position:absolute;
+	padding-right:0px;
+	color:#004999;
+	padding-left:20px;
+	padding-top:5px;
+
+}
+
+.profile {
+	background-color:white;
+	font-weight:bold;
+	padding-left:30px;
+	
+	width:220px;
+	height:40px;
+	font-size:14px;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border:0px;
+	cursor:pointer;
+	
+}
+
+
+.profileimg {
+	width:35px;
+	position:absolute;
+	right:300px;
+	top:30px;
+	cursor:pointer;
+	border-radius:50%;
+}
+.profile:hover {
+	background-color:yellow;
+	color:#004999;
+}
+
+
+.tblgout {
+	padding-right:30px;
+	padding-top:25px;
+}
+
+.lgbutton {
+	background-color:white;
+	font-weight:bold;
+	padding:3px;
+	width:90px;
+	height:40px;
+	font-size:14px;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+	border:0px;
+	
+}
+
+.lgbutton:hover {
+	background-color:yellow;
+	color:#004999;
+	border:0px;
+	cursor:pointer;
+	transition: 1;
+	
+}
+
+.tbutton {
+	padding:0px;
+	text-align:right;
+	margin-right:30px;
+	
+}
+
+
+
+.tbmenu {
+	width:750px;
+	height:30px;
+	background-color:white;
+	position:relative;	
+	top:2px;
+	margin-top:17px;
+	float:right;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	box-shadow:0px -2px 20px #004999;
+	
+}
+.tbmenu:hover{
+	
+}
+
+
+.menu {
+	float:right;
+	height:30px;
+	padding-left:24px;
+	padding-right:24px;
+	margin:0px;
+	
+	background-color:#004999;
+	color:white;
+	font-weight:bold;
+	border:0px;
+	border-bottom:0px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	
+}
+
+.menu:hover{
+	background-color:#bfe6ff;
+	color:black;
+	cursor:pointer;
+	
+}
+
+/* --------------------- */
+
+.table1	{
+	
+	border-top-left-radius:40px;
+	border-top-right-radius:40px;
+	padding-top: 20px;
+	background-color:#0e2433;
+	
+}
+
+.fotomhs {
+	width:130;
+}
+
+.lgubg2	{
+	height:160;
+	width:160;padding-left:20px;
+	padding-bottom:20px; 
+	filter:invert(200%);
+	
+}
+
+.table2 {
+	border:1px solid #C29e29;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	face:arial;
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.textstyle	{
+	color:white; 
+	font-family:Impact;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+}
+
+.nama	{
+	color:white;
+	face:arial;
+	font-size:20px;
+	padding:10px;
+	text-align:left;
+}
+
+</style>
+
+</head>
+
+<body bgcolor="cyan">
+
+	<table class="hometable1" background="bg2.jpg">
+		<tr >
+			<td>
+				<a href="berhasil.html">
+				<img src="logo-ubg.png" class="headerpict"/>
+				<span class="pay"> D3 RPL 2020 <br>
+				<font face="courier new" style="font-size:25px;line-height:5px;text-decoration:underline;font-weight:bold;">Universitas Bumigora </font></span>
+				</a>
+			</td>
+			
+			<td class="tbutton">
+				<div class="tblgout">
+					<a href="profile.html">
+					<img src="infjrsn.jpg" class="profileimg">
+					<input type="button" value="PROFILE PEMBUAT" class="profile" ></input>
+					</a>
+					<a href="logout.php">
+					<input type="button" value="LOGOUT" class="lgbutton"></input>
+					</a>
+				</div>
+			<div class="tbmenu">
+			<a href="ipk.html"><input type="button" value="IPK" class="menu" style="margin-right:5px;"></input></a>
+			<a href="dtmahasiswa.html"><input type="button" value="DATA MAHASISWA" class="menu"></input></a>
+			<a href="dtdosen.html"><input type="button" value="DATA DOSEN" class="menu"></input></a>
+			<a href="uasuts.html"><input type="button" value="UAS & UTS" class="menu"></input></a>
+			<a href="jadwal.html"><input type="button" value="JADWAL KULIAH" class="menu"></input></a>
+			<a href="berhasil.html"><input type="button" value="HOME" class="menu"></input></a>
+			</div>
+			</td>
+		</tr>
+	
+	</table>
+	
+<BR><BR>
+
+	<table class="table1" align="center" height="1200" width="1100" >
+		<tr>
+		<td>
+			<center><img src="logo-ubg.png" class="lgubg2" >
+			
+				<br>
+			
+			
+				<table width="1090" height="184" border="1" class="table2">
+					<tr >
+						<td colspan="8" heigh="90" background="gambar2/-11554994221dzctgm7dha.jpg" class="table2">  
+						<div style="color:white;font-size:30px;text-align:center;padding-top:10px;padding-bottom:10px;border-top-left-radius:30px;text-shadow:0px 5px 2px black; ">
+						<strong><font face="Geometr415 Blk BT">INDEKS PRESTASI KUMULATIF (IPK) <BR> MAHASISWA D3 RPL ANGKATAN 2020 | UNIVERSITAS BUMIGORA</font></strong>
+						</div>
+						</td>
+						
+					</tr>
+					<tr>
+						<td width="55"><div align="center"> <div class="textstyle">FOTO  </div></span></td>
+						<td><div align="center"> <div class="textstyle"> NAMA</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> SMT I</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> SMT II</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> SMT III</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> SMT IV</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> SMT V</div></span> </td>
+						<td><div align="center"> <div class="textstyle"> SMT VI</div></span> </td>
+					</tr>
+					
+										
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Nurul Azmi Yahya Basok
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Dika Maulana
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Ahmad Ihza Aditya S
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								I Komang Dhira Danuarta
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Ahmad Mustaan Holidi
+							</strong></div>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								I Wayan Mustika N Adi Wijaya
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Ari Ramadhan
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Novi Suciati
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+					<tr>
+						<td><center>
+						<img src="foto/dika.jpg" class="fotomhs"> 
+						</td>
+						
+						<td>
+							<strong> <div class="nama">
+								Anisya Relyda
+							</strong></div>
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 4.0								
+						</td>
+						<td>
+							 4.0
+						</td>
+						<td>
+							 -
+						</td>
+						<td>
+							 -								
+						</td>
+						<td>
+							 -
+						</td>
+					</tr>
+						
+				</table>
+			
+		
+		</td>
+		</tr>
+	</table>
+	
+
+</body>
+</html>
